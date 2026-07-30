@@ -29,3 +29,13 @@ print(array[:,0])
 print(array[:,2])
 print(array[:,0:3])
 print(array[:,1:3])
+
+print(array[:,1::2])
+
+print(array[:,::-1])
+print(array[:,::-2])
+
+
+# if we want first 2 rows and first two columns so 
+print(array[0:2,0:2])
+print(array[0:2,2:4])
