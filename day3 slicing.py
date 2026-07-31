@@ -37,5 +37,9 @@ print(array[:,::-2])
 
 
 # if we want first 2 rows and first two columns so 
-print(array[0:2,0:2])
-print(array[0:2,2:4])
+print(array[0:2,0:2]) # r1 c1,  r1 c2, r2 c1, r2 c2
+
+print(array[0:2,2:4]) # r1 c3 , r2 c4,  r1 c3, r2 c4 
+
+print(array[2:4,0:2]) # lower left 
+print(array[2:4,2:4]) # lower right
